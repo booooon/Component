@@ -1,0 +1,58 @@
+html,body{
+	padding: 0;
+	margin: 0;
+}
+.modal{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	background-color: #ddd;
+}
+.modal_warp{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	top:50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	background-color:#fff;
+}
+.modal_head{
+	height: 25px;
+	width: 100%;
+	background-color:blue; 
+}
+.modal_body{
+	height: 130px;
+	width: 100%;
+}
+.modal_foot{
+	height: 45px;
+	width: 100%;
+
+	 
+}
+.modal_foot .confirm{
+	float: left;
+	margin-top:15px; 
+	width: 50%;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+.modal_foot .cancel{
+	display: inline-block;
+	margin-top:15px; 
+	width:50%;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+.trigger{
+    display: block;
+    width: 120px;
+    height: 32px;
+    font-size: 16px;
+    margin: 60px auto;
+  }
